@@ -1,10 +1,12 @@
 # Into the Edge
 
+[![Live demo](https://img.shields.io/badge/live-demo-d6aa52)](https://peretyaginmstu-jpg.github.io/into-the-edge/)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
+[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)](LICENSE-CONTENT.md)
+
 **From palm to atom.** Scroll, swipe or pinch and dive from a gold-coated drill bit in the palm of your hand down to the atoms of its coating: almost nine orders of magnitude, from 20 cm to 5 Å. Every level has one plain-language caption, a familiar object drawn at true scale for comparison, and a card for researchers with the method used at that scale and an open question.
 
 Live: https://peretyaginmstu-jpg.github.io/into-the-edge/
-
-![Into the Edge](og.png)
 
 ## The path
 
@@ -117,6 +119,12 @@ Each entry was checked against the publisher's site, Crossref or an open copy of
 24. Walter AG. Патенты US 7,758,975 B2 (2010) и US 9,476,114 B2 (2016) о тонком золотистом верхнем слое для заметности износа. [patents.google.com](https://patents.google.com/patent/US7758975B2/en)
 25. Watson J.D., Crick F.H.C. (1953) Molecular structure of nucleic acids. Nature 171, 737–738. [doi:10.1038/171737a0](https://doi.org/10.1038/171737a0)
 26. Wolfram L.J. (2003) Human hair: a unique physicochemical composite. J. Am. Acad. Dermatol. 48(6 Suppl), S106–S114. [doi:10.1067/mjd.2003.276](https://doi.org/10.1067/mjd.2003.276)
+
+## Cite
+
+If you use Into the Edge, its engine, texts or illustrations, please cite it. The metadata are in [CITATION.cff](CITATION.cff), and the **Cite this repository** button in the sidebar gives APA and BibTeX.
+
+> Peretyagin P. (2026) Into the Edge: from palm to atom, version 1.0.0. https://github.com/peretyaginmstu-jpg/into-the-edge
 
 ## Licences
 
