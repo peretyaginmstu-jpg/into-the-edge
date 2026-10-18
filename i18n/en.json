@@ -1,0 +1,142 @@
+{
+  "ui": {
+    "title": "Into the Edge",
+    "play": "Play",
+    "pause": "Pause",
+    "restart": "Restart",
+    "share": "Share",
+    "switchLanguage": "Русский",
+    "copied": "Link copied",
+    "copyPrompt": "Copy this link:",
+    "level": "Level",
+    "levels": "Levels",
+    "transition": "Transition",
+    "end": "The end of the journey",
+    "endShort": "end",
+    "fov": "field of view",
+    "forResearchers": "For researchers",
+    "sources": "Sources",
+    "method": "How it is studied",
+    "question": "Open question",
+    "reference": "Reference",
+    "levelSources": "Sources for this level",
+    "discuss": "Discuss",
+    "zoomBackOut": "Zoom back out",
+    "hintWheel": "Scroll to zoom in",
+    "hintTouch": "Swipe up to zoom in",
+    "footnote": "All images are scientific illustrations, not photographs.",
+    "noWebgl": "Into the Edge needs WebGL 2, which this browser does not provide.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "record": "Record video",
+    "recording": "Recording…",
+    "saving": "Saving…",
+    "saved": "Video saved"
+  },
+  "drill": {
+    "tagline": "From palm to atom",
+    "shareText": "From a drill bit in your hand to the atoms of its coating.",
+    "levels": {
+      "0": {
+        "name": "Drill bit",
+        "caption": "An ordinary drill bit. Its gold colour is not paint but a thin ceramic layer. Let's zoom in, all the way down to the atoms."
+      },
+      "1": {
+        "name": "The tip",
+        "caption": "The tip. Two cutting edges do all the work, pressing into metal under high force and heat."
+      },
+      "2": {
+        "name": "Cutting edge",
+        "caption": "Up close, the edge is not razor sharp. Its shape is prepared on purpose, because it decides how long the tool lasts."
+      },
+      "2b": {
+        "name": "Ion-beam cut",
+        "caption": "To look inside, we cut a tiny trench with a beam of gallium ions."
+      },
+      "3": {
+        "name": "Cross-section",
+        "caption": "The coating is only a few micrometres thick. Below it, hard grains of tungsten carbide are held together by cobalt."
+      },
+      "4": {
+        "name": "Columns",
+        "caption": "The coating grows from a vapour, atom by atom, and forms tightly packed columns."
+      },
+      "5": {
+        "name": "Nanolayers",
+        "caption": "Inside, layers a few nanometres thick can alternate. Such stacks can be harder than either material alone."
+      },
+      "6": {
+        "name": "Crystal lattice",
+        "caption": "Titanium, aluminium and nitrogen in a cubic lattice, the same pattern as table salt. A coating holds thousands of these cells stacked up."
+      },
+      "7": {
+        "name": "Atoms",
+        "caption": "Atoms. The forces between them set every property of the coating. Today these forces can be computed with machine learning."
+      }
+    },
+    "cards": {
+      "0": {
+        "method": "Monitoring of cutting force, power and acoustic emission.",
+        "question": "The condition of a tool cannot yet be determined reliably from a single signal, and many methods remain confined to the laboratory."
+      },
+      "1": {
+        "method": "Finite element modelling of cutting.",
+        "question": "Friction between the chip and the tool is poorly understood, and models simplify it heavily."
+      },
+      "2": {
+        "method": "Calculation of stresses and temperatures at the cutting edge.",
+        "question": "The main challenge is to link the calculated stresses and temperatures to tool wear."
+      },
+      "3": {
+        "method": "Scratch test.",
+        "question": "The scratch test gives a semi-quantitative measure of adhesion; a true adhesion parameter usually cannot be obtained from it."
+      },
+      "4": {
+        "method": "Structure zone diagrams.",
+        "question": "The diagrams give only an approximate picture, because more parameters affect coating growth than a diagram has axes."
+      },
+      "5": {
+        "method": "Nanoindentation.",
+        "question": "The hardness of a thin coating depends on the indentation depth because of the substrate, and the “10% of the thickness” rule does not always hold."
+      },
+      "6": {
+        "method": "First-principles calculations.",
+        "question": "When heated, the coating decomposes into nanodomains and becomes harder. How does this decomposition proceed under the combined heat and pressure of the cutting zone?"
+      },
+      "7": {
+        "method": "DFT and machine-learning potentials (MACE, CHGNet).",
+        "question": "Conventional DFT is limited to about a thousand atoms. Universal ML potentials systematically underestimate energies and forces at surfaces, at defects and in high-energy states."
+      }
+    },
+    "compare": {
+      "hand": "Hand",
+      "hair": "Human hair, 60–80 µm",
+      "rbc": "Red blood cell, about 8 µm",
+      "ecoli": "E. coli bacterium, 2 µm",
+      "virus": "Influenza virus, 80–120 nm",
+      "dna": "DNA double helix, 2 nm",
+      "water": "Water molecule, 0.28 nm",
+      "drill": "Drill bit, Ø 8 mm"
+    },
+    "final": {
+      "text": "Linking these atomic forces to the life of a real tool is still an open problem. This is what I work on.",
+      "author": "Pavel Peretyagin"
+    },
+    "section": {
+      "layerMain": "(AlCrTiNbV)N, 2.7 µm",
+      "layerTransition": "Transition zone, 0.2 µm",
+      "layerGraded": "TiCrAlSiN, 1.0 µm",
+      "layerAdhesion": "Ti (Cr), 0.1 µm",
+      "layerCarbide": "Cemented carbide (WC grains in cobalt)",
+      "coating": "Coating, 4.0 µm"
+    },
+    "lattice": {
+      "Ti": "Titanium",
+      "Al": "Aluminium",
+      "N": "Nitrogen"
+    },
+    "annot": {
+      "edge": "Cutting edge"
+    }
+  }
+}

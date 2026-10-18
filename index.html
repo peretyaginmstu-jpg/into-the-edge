@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Into the Edge</title>
+  <meta name="description" content="Zoom from a drill bit in your hand down to the atoms of its coating: almost nine orders of magnitude, from 20 cm to 5 Å.">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://peretyaginmstu-jpg.github.io/into-the-edge/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Into the Edge">
+  <meta property="og:title" content="Into the Edge: from palm to atom">
+  <meta property="og:description" content="Zoom from a drill bit in your hand down to the atoms of its coating: from 20 cm to 5 Å.">
+  <meta property="og:url" content="https://peretyaginmstu-jpg.github.io/into-the-edge/">
+  <meta property="og:image" content="https://peretyaginmstu-jpg.github.io/into-the-edge/og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="A gold-coated drill bit and the crystal lattice of its coating.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ibm-plex-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="modulepreload" href="vendor/three/three.module.min.js">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app" class="is-loading">
+    <canvas id="gl" aria-hidden="true"></canvas>
+    <canvas id="overlay" aria-hidden="true"></canvas>
+    <div id="ui"></div>
+    <div class="boot" aria-hidden="true"><span class="boot-title">Into the Edge</span><span class="boot-sub">Loading…</span></div>
+    <noscript><p class="nojs">Into the Edge is an interactive zoom from a drill bit down to the atoms of its coating. It needs JavaScript and WebGL 2.</p></noscript>
+  </main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
