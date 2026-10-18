@@ -14,6 +14,14 @@ authors:
     family-names: Peretyagin
     affiliation: "Moscow State University of Technology STANKIN"
 version: 1.0.1
+doi: 10.5281/zenodo.23458556
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23458556
+    description: Concept DOI, always resolves to the latest version
+  - type: doi
+    value: 10.5281/zenodo.23458557
+    description: DOI of version 1.0.1
 date-released: 2026-10-18
 url: "https://peretyaginmstu-jpg.github.io/into-the-edge/"
 repository-code: "https://github.com/peretyaginmstu-jpg/into-the-edge"
