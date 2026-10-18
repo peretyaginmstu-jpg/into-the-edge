@@ -126,5 +126,5 @@ Each entry was checked against the publisher's site, Crossref or an open copy of
 
 ## Author
 
-Pavel Peretyagin · [GitHub](https://github.com/peretyaginmstu-jpg)
+Pavel Peretyagin · [LinkedIn](https://www.linkedin.com/in/pavel-peretyagin/) · [GitHub](https://github.com/peretyaginmstu-jpg)
 
