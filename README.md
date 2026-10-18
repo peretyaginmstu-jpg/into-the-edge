@@ -126,7 +126,7 @@ Each entry was checked against the publisher's site, Crossref or an open copy of
 
 If you use Into the Edge, its engine, texts or illustrations, please cite it. The metadata are in [CITATION.cff](CITATION.cff), and the **Cite this repository** button in the sidebar gives APA and BibTeX.
 
-> Peretyagin P. (2026) Into the Edge: from palm to atom, version 1.0.0. https://github.com/peretyaginmstu-jpg/into-the-edge
+> Peretyagin P. (2026) Into the Edge: from palm to atom, version 1.0.1. https://github.com/peretyaginmstu-jpg/into-the-edge
 
 ## Licences
 

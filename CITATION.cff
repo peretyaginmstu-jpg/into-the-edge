@@ -13,7 +13,7 @@ authors:
   - given-names: Pavel
     family-names: Peretyagin
     affiliation: "Moscow State University of Technology STANKIN"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-18
 url: "https://peretyaginmstu-jpg.github.io/into-the-edge/"
 repository-code: "https://github.com/peretyaginmstu-jpg/into-the-edge"

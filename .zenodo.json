@@ -1,0 +1,24 @@
+{
+  "title": "Into the Edge: from palm to atom",
+  "upload_type": "software",
+  "description": "<p>An interactive, browser-based zoom from a gold-coated drill bit in the palm of a hand down to the atoms of its PVD coating, from 20 cm to 5 Å. Every level has a plain-language caption, a familiar object drawn at true scale for comparison and a card for researchers with the method used at that scale and an open question. The engine is journey-agnostic: a new zoom for another material is one config file plus texts.</p><p>Live site: <a href=\"https://peretyaginmstu-jpg.github.io/into-the-edge/\">peretyaginmstu-jpg.github.io/into-the-edge</a>. Code under MIT, texts and illustrations under CC BY 4.0.</p>",
+  "creators": [
+    {
+      "name": "Peretyagin, Pavel",
+      "affiliation": "Moscow State University of Technology STANKIN"
+    }
+  ],
+  "keywords": [
+    "scientific visualization",
+    "science communication",
+    "materials science",
+    "PVD coatings",
+    "thin films",
+    "cutting tools",
+    "electron microscopy",
+    "multiscale",
+    "WebGL",
+    "three.js"
+  ],
+  "license": "MIT"
+}
