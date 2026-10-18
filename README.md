@@ -1,5 +1,7 @@
 # Into the Edge
 
+[![Into the Edge: zoom from a drill bit in your hand to the atoms of its coating](media/preview.webp)](https://peretyaginmstu-jpg.github.io/into-the-edge/)
+
 [![Live demo](https://img.shields.io/badge/live-demo-d6aa52)](https://peretyaginmstu-jpg.github.io/into-the-edge/)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)](LICENSE-CONTENT.md)
