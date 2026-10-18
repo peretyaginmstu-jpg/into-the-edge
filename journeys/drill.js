@@ -9,7 +9,7 @@ export default {
   siteUrl: 'https://peretyaginmstu-jpg.github.io/into-the-edge/',
   author: {
     links: [
-      { id: 'linkedin', url: 'https://www.linkedin.com/in/' },
+      { id: 'linkedin', url: '' }, // add the profile URL to show the link
       { id: 'github', url: 'https://github.com/peretyaginmstu-jpg' },
     ],
   },

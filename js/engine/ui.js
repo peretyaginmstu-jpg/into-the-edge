@@ -154,7 +154,7 @@ export class UI {
     // finale
     this.el.finaleText.textContent = this.jt('final.text');
     this.el.finaleAuthor.textContent = this.jt('final.author');
-    const links = app.journey.author.links || [];
+    const links = (app.journey.author.links || []).filter((l) => l.url);
     this.el.finaleLinks.innerHTML = links.map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(this.t(`ui.${l.id}`))}</a>`).join('');
     this.buildRuler(lang);
     const i = this.active;
