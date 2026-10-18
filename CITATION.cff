@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use Into the Edge, its engine, texts or illustrations, please cite it as below."
 type: software
-title: "Into the Edge: from palm to atom"
+title: "Into the Edge: an interactive zoom from a cutting tool to the atoms of its coating"
 abstract: >-
   An interactive, browser-based zoom from a gold-coated drill bit in the palm of a hand
   down to the atoms of its PVD coating, from 20 cm to 5 Å. Every level has a
@@ -13,7 +13,7 @@ authors:
   - given-names: Pavel
     family-names: Peretyagin
     affiliation: "Moscow State University of Technology STANKIN"
-version: 1.0.1
+version: 1.0.2
 doi: 10.5281/zenodo.23458556
 identifiers:
   - type: doi
