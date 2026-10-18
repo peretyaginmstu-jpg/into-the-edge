@@ -28,7 +28,7 @@ All images are scientific illustrations generated in the browser with fixed rand
 
 - The whole view is a function of one number: `z = log10(field of view in metres)`. The field of view is the shorter side of the screen, so the scale bar and the comparison objects always agree with each other.
 - Wheel, trackpad, pinch, swipe and the arrow keys change `z` smoothly, with inertia; `PageDown`/`PageUp` or `Space` jump between levels. The ruler on the right jumps to a level on click and scrubs on drag. The address keeps the level (`#level-5`, `#end`).
-- `Play` flies through the whole path with a pause at every level; `Restart` returns to the hand; `EN/RU` switches the language (English by default, Russian from the browser language); `Share` uses the system share sheet or copies the link.
+- `Play` flies through the whole path with a pause at every level; `Restart` returns to the hand; `EN / RU` switches the language (English comes first and opens on every first visit; Russian with the button or `?lang=ru`, and the choice is remembered); `Share` uses the system share sheet or copies the link.
 - With `prefers-reduced-motion` there is no inertia and no automatic camera flight: the view cuts from level to level.
 - Three scenes share one WebGL context (three.js):
   - **drill** (levels 0–2b) is ray-marched: a signed distance field of a solid carbide twist drill with twisted flutes, margins, a four-facet 140° point and honed edges, plus the ion-beam pit milled pass by pass;

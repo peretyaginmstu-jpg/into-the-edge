@@ -1,5 +1,6 @@
-// Texts live in i18n/<lang>.json. English is the default; Russian is picked from the
-// browser language or the EN/RU button, and the choice is remembered when storage allows.
+// Texts live in i18n/<lang>.json. English comes first: every first visit opens in English;
+// Russian is chosen with the EN / RU button (or ?lang=ru), and that choice is remembered
+// when storage allows.
 
 const STORAGE_KEY = 'into-the-edge:lang';
 export const LANGS = ['en', 'ru'];
@@ -11,8 +12,7 @@ export function detectLanguage(params) {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (LANGS.includes(saved)) return saved;
   } catch (e) { /* storage blocked */ }
-  const list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
-  return list.some((l) => /^ru\b|^ru-/i.test(l)) ? 'ru' : 'en';
+  return 'en';
 }
 
 export function rememberLanguage(lang) {

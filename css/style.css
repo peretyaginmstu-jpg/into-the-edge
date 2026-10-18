@@ -102,7 +102,10 @@ a { color: inherit; }
 .btn:active { background: rgba(236, 232, 224, 0.06); }
 .btn svg { width: 14px; height: 14px; flex: none; }
 .btn .lbl { display: inline; }
-.btn-lang { font-family: var(--mono); font-size: 12px; padding: 0 12px; }
+.btn-lang { font-family: var(--mono); font-size: 12px; padding: 0 12px; gap: 5px; }
+.btn-lang .lang-opt { color: var(--fg-3); }
+.btn-lang .lang-opt.is-on { color: var(--gold); }
+.btn-lang .lang-sep { color: var(--fg-3); opacity: .6; }
 .btn[aria-pressed="true"] { border-color: var(--gold-2); color: var(--gold); }
 
 /* Ruler (right) */
@@ -265,7 +268,7 @@ a { color: inherit; }
   .brand-tag { display: none; }
   .btn { width: 36px; height: 36px; padding: 0; justify-content: center; border-radius: 18px; }
   .btn .lbl { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  .btn-lang { width: 40px; }
+  .btn-lang { width: auto; padding: 0 10px; gap: 3px; font-size: 11.5px; }
   .btn svg { width: 15px; height: 15px; }
   .controls { gap: 6px; }
   .ruler { width: 34px; height: min(44vh, 360px); top: 44%; }
@@ -286,7 +289,7 @@ a { color: inherit; }
 @media (max-width: 380px) {
   .controls { gap: 4px; }
   .btn { width: 34px; height: 34px; }
-  .btn-lang { width: 38px; }
+  .btn-lang { width: auto; padding: 0 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

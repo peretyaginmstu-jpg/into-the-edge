@@ -44,7 +44,7 @@ export class UI {
         <div class="controls">
           <button class="btn" type="button" data-act="play" aria-pressed="false"><span class="ico">${ICON.play}</span><span class="lbl"></span></button>
           <button class="btn" type="button" data-act="restart">${ICON.restart}<span class="lbl"></span></button>
-          <button class="btn btn-lang" type="button" data-act="lang"><span class="lbl-lang"></span></button>
+          <button class="btn btn-lang" type="button" data-act="lang"><span class="lang-opt" data-l="en">EN</span><span class="lang-sep" aria-hidden="true">/</span><span class="lang-opt" data-l="ru">RU</span></button>
           <button class="btn" type="button" data-act="share">${ICON.share}<span class="lbl"></span></button>
         </div>
       </header>
@@ -138,7 +138,7 @@ export class UI {
     this.el.play.setAttribute('aria-label', this.t(app.playing ? 'ui.pause' : 'ui.play'));
     this.el.restart.querySelector('.lbl').textContent = this.t('ui.restart');
     this.el.restart.setAttribute('aria-label', this.t('ui.restart'));
-    this.el.lang.querySelector('.lbl-lang').textContent = lang === 'en' ? 'RU' : 'EN';
+    for (const o of this.el.lang.querySelectorAll('.lang-opt')) o.classList.toggle('is-on', o.dataset.l === lang);
     this.el.lang.setAttribute('aria-label', this.t('ui.switchLanguage'));
     this.el.lang.setAttribute('lang', lang === 'en' ? 'ru' : 'en');
     for (const b of this.root.querySelectorAll('[data-act="share"]')) {
